@@ -1,5 +1,4 @@
-FROM          dokken/centos-8:pr-81
-ENTRYPOINT    [ "bash", "/run.sh" ]
-RUN           yum install maven -y
+FROM        dokken/centos-8
+RUN         yum install jq -y
 
 
