@@ -1,4 +1,4 @@
 FROM          dokken/centos-8
-RUN           echo 1
+RUN           cd /etc/yum.repos.d/
 
 
