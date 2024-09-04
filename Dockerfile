@@ -1,4 +1,4 @@
-FROM        dokken/centos-8
-RUN
+FROM        centos8-custom
+RUN         yum install epel-release -y
 
 
